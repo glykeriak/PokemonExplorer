@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pokémon_Explorer</string>
+    <string name="name">Name: </string>
+    <string name="hp">Hp: </string>
+    <string name="attack">Attack: </string>
+    <string name="defense">Defense: </string>
+    <string name="type">Type: Fire</string>
+    <string name="search_hint">Search Pokémon by name</string>
+    <string name="load_more">Load More</string>
+    <string name="title">Let\'s find your Pokémon!</string>
+    <string name="detail">Pokémon Details</string>
+    <string name="explore">Explore More</string>
+</resources>
