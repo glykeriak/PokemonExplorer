@@ -8,8 +8,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-
-data class SimplePokemon(val name: String, val imageURL: String? =null)
+import com.example.pokmon_explorer.data.SimplePokemon
 
 class PokemonAdapter (
     private val data:  MutableList<SimplePokemon>,

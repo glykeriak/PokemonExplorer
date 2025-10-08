@@ -15,7 +15,6 @@ class Adapter (
     private val onCardClick: (CardItem)-> Unit
 ): RecyclerView.Adapter<Adapter.CardViewHolder>(){
 
-
     inner class CardViewHolder(view: View) : RecyclerView.ViewHolder(view){
         val card: CardView = view as CardView
         val titleText: TextView = view.findViewById(R.id.typeTitle)

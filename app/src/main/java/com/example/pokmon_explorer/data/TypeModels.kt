@@ -6,6 +6,8 @@ data class TypeResponse(val pokemon: List<PokemonSlot>)
 
 data class PokemonSlot(val pokemon: NamedResource, val slot: Int?= null)
 
+data class SimplePokemon(val name: String, val imageURL: String? =null)
+
 data class NamedResource(val name: String, val url: String)
 
 data class PokemonResponse(val name: String, val sprites: Sprites, val stats: List<Stat>)

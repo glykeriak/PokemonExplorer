@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 import android.text.TextWatcher
 import androidx.lifecycle.lifecycleScope
 import com.example.pokmon_explorer.data.ApiClient
+import com.example.pokmon_explorer.data.SimplePokemon
 import com.example.pokmon_explorer.data.extractedID
 import kotlinx.coroutines.launch
 
